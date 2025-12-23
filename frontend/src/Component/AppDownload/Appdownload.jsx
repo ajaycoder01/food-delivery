@@ -1,5 +1,5 @@
 import React from 'react'
-import './Appdownload.css'
+import './AppDownload.css'
 import { assets } from '../../assets/Assets'
 export default function Appdownload() {
   return (
