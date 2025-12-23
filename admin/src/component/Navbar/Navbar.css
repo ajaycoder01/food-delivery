@@ -1,0 +1,49 @@
+
+.logo{
+display: flex;
+align-items: center;
+}
+.logo h4{
+    color: rgb(42, 41, 41);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 4% ;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+#mylogo{
+    width:90px;
+    height: 60px;
+}
+
+.login-btn {
+  background-color: #ff4c24;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.login-btn:hover {
+  background-color: #e63e1c;
+}
+
+.logout-btn {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+

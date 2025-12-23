@@ -1,0 +1,140 @@
+.navbar{
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#mylogo{
+    width: 90px;
+    height: 60px;
+}
+.navbar-right{
+    display:flex ;
+    gap: 20px;
+    font-size: 18px;
+}
+.navbar-right span{
+    color: #49557e;
+    font-size: 25px;
+}
+.accounts{
+    background-color: transparent;
+    color: #49557e;
+    border: 1px solid tomato;
+    font-size: 16px;
+    padding: 7px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.accounts:hover{
+    background-color: #fff4f2;
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+.navbar-brand{
+    color: tomato;
+    font-size: 25px;
+    font-weight: 600;
+}
+.navbar-search-icon{
+    position: relative;
+}
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+   background-color: tomato;
+    border-radius: 5px;
+    top:-5px ;
+    right: -6px;
+}
+.navbar-nav li{
+    margin: 0px 10px;
+}
+.nav-link{
+    font-size: 18px;
+}
+.navbar-profile{
+    position: relative;
+}
+.nav-profile-dropdown{
+    position: absolute;
+    display: none;
+    right: 0px;
+    z-index: 111;
+    margin: 0;
+    padding: 0;
+}
+.nav-profile-dropdown hr{
+    margin: 0;
+}
+.navbar-profile:hover .nav-profile-dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff2ef;
+    padding: 12px 25px;
+    border-radius: 4px;
+    outline: 2px solid white;
+    border: 1px solid tomato;
+    list-style: none;
+}
+.nav-profile-dropdown li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.nav-profile-dropdown li:hover{
+    color: tomato;
+}
+.nav-profile-dropdown p{
+    margin: 0;
+}
+.navbar-profile img{
+    width: 20px;
+    padding-top: 8px;
+}
+
+/* .navbar-toggler:hover .collapse{
+    display: block !important;
+}    */
+/* .collapse:hover .navbar-nav{
+    display: block !important;
+} */
+ @media (max-width: 600px) {
+    .navbar {
+        padding: 2px 0px 5px !important;
+    }
+    .navbar-toggler{
+    font-size: 17px;
+    padding: 3px !important;
+    box-shadow: 0px 0px 4px black !important;
+    }
+    .navbar-right {
+
+    justify-content: center;
+}
+
+}
+
+@media (max-width:900px){
+    .navbar-nav li {
+        margin: 0px 2px;
+    }
+    .navbar{
+        padding: 0px 0;
+    }
+}
+@media (max-width:780px){
+    .navbar-nav li {
+        margin: 0px 2px;
+    }
+    .navbar{
+        padding: 2px 0;
+    }
+   
+}

@@ -1,0 +1,25 @@
+.orderArea{
+    margin: 100px auto;
+}
+.order-total{
+    width: 400px;
+    margin: auto;
+}
+.orderArea h2{
+    padding-bottom: 25px;
+}
+.btn-sub{
+    background-color: tomato;
+    color: white;
+}
+@media (max-width:850px){
+    .order-total{
+        width: 100%;
+    }
+   
+}
+@media (max-width:767.98px){
+    .orderArea{
+            margin: 50px auto;
+        }
+}
