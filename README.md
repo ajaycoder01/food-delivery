@@ -123,6 +123,22 @@ cd admin
 npm install
 npm run dev
 ```
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshot/home.png)
+
+### 🛒 Cart Page
+![Cart Page](screenshot/cart.png)
+
+### 💳 Payment Page
+![Payment Details Page](screenshot/payment-details.png)
+![Payment Page](screenshot/payment.png)
+
+### 🧑‍💼 Admin Panel
+![Admin Panel](screenshot/admin.png)
+
+
 ⭐ Show Your Support
 
 If you like this project, please ⭐ star the repository!
